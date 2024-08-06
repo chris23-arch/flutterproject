@@ -8,7 +8,7 @@ import 'package:flutter_tutorial/SCREENS/graphscreen.dart';
 import 'package:flutter_tutorial/FLUTTER-WIDGETS/practice.dart';
 import 'package:flutter_tutorial/FLUTTER-WIDGETS/tabbedview.dart';
 import 'package:flutter_tutorial/SCREENS/soundplayerscreen.dart';
-import 'package:flutter_tutorial/SCREENS/tablescreen.dart';
+
 
 
 

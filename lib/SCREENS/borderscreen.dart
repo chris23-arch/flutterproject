@@ -12,7 +12,8 @@ class BorderScreen extends StatelessWidget {
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: FunctionTable(), // Use a different name for the custom table widget
+          child:
+              FunctionTable(), // Use a different name for the custom table widget
         ),
       ),
     );
@@ -60,4 +61,3 @@ class FunctionTable extends StatelessWidget {
     );
   }
 }
-  

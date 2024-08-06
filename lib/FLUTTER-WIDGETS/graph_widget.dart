@@ -7,9 +7,9 @@ class GraphWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       appBar: AppBar(
-          title: const Text('Linear Graph'),
-        ),
+      appBar: AppBar(
+        title: const Text('Linear Graph'),
+      ),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
