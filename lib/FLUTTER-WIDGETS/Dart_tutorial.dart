@@ -129,6 +129,12 @@ List<List<String>> jss1 = [
     ["Vincent", "Toochi"],
   ];
 
+   // SvgPicture.asset(
+                  //   'assets/images/image1.svg',
+                  //   width: 160.0,
+                  //   height: 94.0,
+                  // ),
+
   print(jss1[0][0]);
   print(jss1[0][1]);
   print(jss1[1][0]);
@@ -138,6 +144,7 @@ List<List<String>> jss1 = [
   print(jss1[3][0]);
   print(jss1[3][1]);
  */
+
 
 
 
@@ -159,7 +166,7 @@ int i = 1; i <= 12; i++) {
     programming language.
     Flutter provide a built-in class called Map for working with maps.
    */
- 
+  
  /*
  Map<String, dynamic> jss2 = {
     "name": "Amos",
@@ -194,6 +201,10 @@ int i = 1; i <= 12; i++) {
   for(int i = 0; i < students.length; i++) {
     print(students[1]);
   }
+   for(int i = 0; i < students.length; i+=2) {
+    print(students[1]);
+  }
+  
   
   var myMap = {};
   myMap["name"] = "somtee";
@@ -204,8 +215,6 @@ int i = 1; i <= 12; i++) {
   myMap.remove("name");
   print(myMap);
   */
-
-
 
 
 
