@@ -9,19 +9,16 @@ import 'package:flutter_tutorial/FLUTTER-WIDGETS/practice.dart';
 import 'package:flutter_tutorial/FLUTTER-WIDGETS/tabbedview.dart';
 import 'package:flutter_tutorial/SCREENS/soundplayerscreen.dart';
 
-
-
-
 void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatelessWidget { 
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
-  Widget build(BuildContext context) {  
+  Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Function table',
       debugShowCheckedModeBanner: false,
@@ -29,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: BorderScreen(),
+      home: Practice(),
     );
   }
 }

@@ -22,7 +22,7 @@ class Practice extends StatelessWidget {
             Icons.segment,
             color: Colors.brown,
           ),
-        ],  
+        ],
         elevation: 20,
         shadowColor: Colors.yellow,
       ),
@@ -35,8 +35,7 @@ class Practice extends StatelessWidget {
           child: const Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.end,
-              children: [Text("textarea")]
-              ),
+              children: [Text("textarea")]),
         ),
       ),
     );
